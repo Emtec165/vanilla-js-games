@@ -2,6 +2,7 @@ const aRockPaperScissors = document.getElementById('1-rock-paper-scissors');
 const bMemoryGame = document.getElementById('2-memory-game');
 const cWhacAMole = document.getElementById('3-whac-a-mole');
 const dBreakout = document.getElementById('4-breakout');
+const eFrogger = document.getElementById('5-frogger');
 
 aRockPaperScissors.onclick = function () {
   location.href = '1-rock-paper-scissors'
@@ -17,4 +18,8 @@ cWhacAMole.onclick = function () {
 
 dBreakout.onclick = function () {
   location.href = '4-breakout'
+}
+
+eFrogger.onclick = function () {
+  location.href = '5-frogger'
 }
